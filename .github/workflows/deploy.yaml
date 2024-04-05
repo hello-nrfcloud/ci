@@ -40,14 +40,14 @@ jobs:
           # vars.AWS_REGION_CI is an organization variable
           aws-region: ${{ vars.AWS_REGION_CI }}
 
-      - name: Clone hello-nrfcloud/ci
+      - name: Clone bifravst/ci
         run: |
-          git clone https://github.com/hello-nrfcloud/ci
+          git clone https://github.com/bifravst/ci
           cd ci
           npm ci
 
       - run: npx cdk deploy --require-approval never
         working-directory: ci
         env:
-          STACK_NAME: bifravst-ci
+          STACK_NAME: hello-nrfcloud-ci
           REPOS_LIST: ../repos.txt
