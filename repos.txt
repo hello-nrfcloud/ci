@@ -1,2 +1,4 @@
 bifravst/ci
-bifravst/aws-cdk-lambda-helpers
+bifravst/aws-cdk-lambda-helper
+bifravst/public-parameter-registry-aws-js
+bifravst/http-api-mock
