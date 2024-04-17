@@ -7,3 +7,4 @@ hello-nrfcloud/proto
 hello-nrfcloud/proto-map
 hello-nrfcloud/public-parameter-registry-aws-js
 hello-nrfcloud/web
+hello-nrfcloud/kartverket-vasstandsdata
