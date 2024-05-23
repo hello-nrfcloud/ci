@@ -1,4 +1,4 @@
-# Bifravst CI
+# hello.nrfcloud.com CI
 
 Uses [bifravst/ci](https://github.com/bifravst/ci) to set up the permissions in our AWS CI account for the repositories in this
 GitHub organization that are supposed to have access so they are be able to use
