@@ -8,3 +8,4 @@ hello-nrfcloud/proto-map
 hello-nrfcloud/public-parameter-registry-aws-js
 hello-nrfcloud/web
 hello-nrfcloud/kartverket-vasstandsdata
+hello-nrfcloud/asset_tracker_v2-to-lwm2m
