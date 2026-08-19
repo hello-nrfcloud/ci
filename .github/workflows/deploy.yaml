@@ -29,6 +29,11 @@ jobs:
         with:
           node-version: ">=24.19.0 <25"
 
+      - name: Install NPM
+        shell: bash
+        run: |
+          npm install -g "npm@>=12.0.2 <13"
+
       # This will only work, if you've run `npx cdk deploy` once manually.
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v6
